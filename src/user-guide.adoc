@@ -1,8 +1,8 @@
 = Introduction
 
-This application help you making mind mapping easy and intuitive.
+This application help you making mind map easy and intuitive.
 
-image::screenshots/mindboard-classic.png[title="mindboard-classic"]
+image::screenshots/mindboard-classic.png[title="mindboard classic"]
 
 
 == Key Features 
@@ -25,7 +25,7 @@ image::screenshots/muji_finder_act.png[title="file manager"]
 
 * This is for management your map files.
 * There are three folders to organize your map files.
-* Go to the *Map Editor* activity by double tapping a map icon.
+* In order to enter the *Map Editor* activity, double tapping a map icon.
 
 
 === Map Editor
@@ -33,8 +33,8 @@ image::screenshots/muji_finder_act.png[title="file manager"]
 image::screenshots/muji_mindboard_act.png[title="map editor"]
 
 * This is for mind mapping.
-* Go to the *Node Editor* by double tapping the node on the mind map.
-* Back to the *File Manager* by tapping the icon on the top left corner, or the Android hard key back button.
+* In order to enter the *Node Editor*, double tapping a node on the map.
+* In order to back the *File Manager*, tapping the icon on the top left corner, or the Android hard key back button.
 
 [NOTE]
 In order to go back, you can also use **double tap** gesture on the background.
@@ -65,14 +65,14 @@ image::screenshots/muji_settings.png[title="settings"]
 
 image::screenshots/muji_finder_act.png[title="file manager"]
 
-* **Adding a new mind map** ... Tap the Add button on the action bar.
-* **Coping the mind map** ... Select a mind map to copy by tapping it. And then the Copy button on the action bar.
-* **Deleting the mind map** ... Select a mind map to delete by tapping it. And then the Confirm Delete button on the action bar.
-* **Changing the mind map order** ... Long-press the mind map to change order. And then drag it to the new location.
+* **Add a new mind map** ... Tap the Add button on the action bar.
+* **Copy a mind map** ... Select a map to copy by tapping it. And then the Copy button on the action bar.
+* **Delete a mind map** ... Select a map to delete by tapping it. And then the Confirm Delete button on the action bar.
+* **Change the order of maps** ... Long-press a mind map. And then drag it into another place.
 
 Menu
 
-* **Data Management** ... Select the Data Management menu item from the menu. → Selection dialog is shown.
+* **Data Management** ... Select the Data Management menu item from the menu.
 * **Export data** ... Export all mind map data into the SD card.
 * **Import data** ... Import the mind map data from the SD card.
 
@@ -84,38 +84,32 @@ These features are for data migration from the Free to Full version.
 
 image::screenshots/muji_mindboard_act.png[title="map editor"]
 
-
-* **Edit drawing on a node** ... Go to the edit screen when you double-tap the node.
-* **Adding a node** ... Drag the (+) mark.
-* **Moving the node** ... Long press the node to move. And then drag it on the destination node.
-* **Delete the node** ... Select a node to delete , and then tap delete button on the action bar.
-** It will also be deleted children nodes of the selected node.
-* **Shift and Zoom mind map**
-** **Shift** ... Drag white space the mind map with one finger.
-** **Zoom** ... Pinch in / out with two fingers.
-
-
-==== Operations
+* *Edit drawing on a node* ... In order to enter the node editor, double tapping a node.
+* *Add a node* ... Drag (+) mark on a node.
+* *Change node structure* ... Long press a node to change. And then drag it into another node.
+* *Delete a node* ... Select a node to delete , and then tap delete button on the action bar. It will be deleted children nodes.
+* *Scroll* ... Drag the background with a finger.
+* *Zoom* ... Pinch in / out with two fingers.
 
 image::screenshots/muji_mindboard_node_selected.png[title="node selection"]
 
 * **Set the drawing color on a node** ... Choose a color from colors panel on the action bar when you select a node.
 * **Set the color of the branch** ... Choose a color from colors panel on the action bar when you select a branch.
-* **Select drawing path stroke width** ... Choose a pen width from pen widths panel on Action Bar. 
+* **Select pen stroke width** ... Choose a pen width from pen widths panel on the action bar. 
 
 Menu
 
-* **Export as PDF** ... Select PDF Export Menu Item from the menu on the action bar. To view generated PDF document , it is need to be installed PDF Viewer app like Adobe Reader.
-* **Change theme** ... Select Theme Change Menu Item from the menu on the action bar. Choose a theme from the list of themes.
+* **Export as PDF** ... Select the PDF Export Menu Item from the menu on the action bar.
+* **Change theme** ... Select the Theme Change Menu Item from the menu on the action bar. Choose a theme from the list of themes.
 
 
 === Node Editor
 
 image::screenshots/muji_editor_act.png[title="node editor"]
 
-* **Pen mode** ... You can draw your ideas on the screen.
+* **Pen mode** ... You can draw your ideas.
 * **Eraser mode** ... Delete the stroke that you draw.
-* **Scroll** ... Drag background with one finger.
+* **Scroll** ... Drag the background with one finger.
 * **Zoom** ... Pinch in / out with two fingers.
 * **Undo** ... Do undo.
 * **Redo** ... Do redo.
@@ -128,9 +122,9 @@ image::screenshots/muji_settings.png[title="settings"]
 
 * **Double tap and go back gesture**  ... enabled or not
 * **Stylus (S Pen)** ... use plam rejection or not
-* **Google Drive Folder** ... use google drive folder or not
+* **Google Drive Folder** ... use Google Drive folder or not (Only Full Edition)
 * **Screen** ... keep screen on or not
-* **Working Directory** 
+//* **Working Directory** 
 
 
 = Appendix
