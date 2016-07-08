@@ -141,9 +141,7 @@ Free Edition limitations are ...
 There is no differences but these two features.
 
 
-=== How to transfer data from Free Edition to Paid Edition when upgrade? 
-
-Yes.
+=== How to transfer data from Free Edition to Full Edition when upgrade? 
 
 Please use **Data Management** menu in the File Manager.
 
@@ -152,13 +150,13 @@ Please use **Data Management** menu in the File Manager.
 
 Step1 : Launch MindBoard Classic (*Free*) Edition
 
-. Select Menu **Data Management**.
-. On Data Management Dialog, Select **Export data** and Tap **OK**.
+. Select the *Data Management* Menu Item.
+. On the Data Management Dialog, Select *Export data* and tap *OK*.
 
 Step2 : Launch MindBoard Classic (*Full*) Edition
 
-. Select Menu **Data Management**.
-. On Data Management Dialog, Select **Import data** and Tap **OK**.
+. Select the *Data Management* Menu Item.
+. On the Data Management Dialog, Select *Import data* and tap **OK**.
 
 
 ==== Additional Information
@@ -167,19 +165,17 @@ Step2 : Launch MindBoard Classic (*Full*) Edition
 * Wnen you import data , MindBoard app try to read data from the local SD Card . 
 
 
-=== How to move a node to another one? 
+=== How to change node structure?
 
-Yes.
-
-You can move any node (but center node) by dragging it in the [Mind Mapping](editing-map.html) screen.
+You can change any node (but center node) in the Map Editor.
 
 
 ==== Operations 
 
-In the [Mind Mapping](editing-map.html)
+In the *Map Editor* ...
 
-. Long press (press and hold) a node to move. ( changing node-move-mode )
-. Dragging it to another node 
+. Long press a node to change.
+. Drag and drop it into another node. 
 
 [NOTE]
 See also the http://www.youtube.com/watch?v=qXQFEQhgNko[Video Tutorial] at youtube.
@@ -194,7 +190,7 @@ Please use the menu **Auto-layout**.
 
 ==== Operations
 
-In the *Mind Mapping Activity* ...
+In the *Map Editor* ...
 
 . Select a node
 . Select the menu *Auto Layout*
@@ -211,8 +207,8 @@ You can change it anywhere you want.
 
 In the *File Manager Activity* ...
 
-. Long Press the target file icon what you want to move. ( so that others grayed out. )
-. Drag it to somewhere you want.
+. Long Press a target file icon what you want to move. ( so that others grayed out. )
+. Drag and drop it into somewhere you want.
 
 
 [NOTE]
