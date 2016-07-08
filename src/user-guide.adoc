@@ -1,0 +1,246 @@
+
+= Introduction
+
+This application help you making mind mapping easy and intuitive.
+
+image::screenshots/mindboard-classic.png[title="mindboard-classic"]
+
+
+== Key Features 
+
+* You do not need to use keyboard. You can create a mind map by free hand drawing.
+* You can draw a large map with zoom and scroll feature.
+* You can export your mind map as PDF.
+
+
+= Usage
+
+== Overview
+
+This app has three Activities and Settings.
+
+
+=== (1) File Manager
+
+image::screenshots/muji_finder_act.png[title="muji_finder_act"]
+
+* It is a screen to manage your map files.
+* There are three folders to organize your map files.
+* Go to [Mind Mapping](editing-map.html) screen by double tapping the map icon.
+
+
+=== (2) Mind Mapping
+
+image::screenshots/muji_mindboard_act.png[title="muji_mindboard_act"]
+
+* It is a screen to create a mind map.
+* Go to the [Screen-3](editing-node.html) by double tapping the node on the mind map.
+* Back to the [Screen-1](file-manager.html) by tapping the icon in the upper left corner, or the Android hard key back button.
+
+> To go back, you can also use **double tap** background gesture.
+> * It is possible to make This behaviour prevent in the [Settings](settings.html).
+
+
+=== (3) Node Editing
+
+image::screenshots/muji_editor_act.png[title="muji_editor_act"]
+
+* It is a screen to edit drawing on the node.
+* Back to the [Screen-2](editing-map.html) by tapping the icon in the upper left corner, or the Android hard key back button.
+
+
+[NOTE]
+To go back, you can also use **double tap** background gesture.
+* It is possible to make This behaviour prevent in the [Settings](settings.html).
+
+
+=== Settings 
+
+//* It is a Settings screen.
+
+image::screenshots/muji_settings.png[title="muji_settings"]
+
+[More details...](settings.html)
+
+
+
+== Details
+
+=== (1) File Manager
+
+image::screenshots/muji_finder_act.png[title="muji_finder_act"]
+
+* **Adding a new mind map** ... Tap the Add button on the action bar.
+* **Coping the mind map** ... Select a mind map to copy by tapping it. And then the Copy button on the action bar.
+* **Deleting the mind map** ... Select a mind map to delete by tapping it. And then the Confirm Delete button on the action bar.
+* **Changing the mind map order** ... Long-press the mind map to change order. And then drag it to the new location.
+
+
+Menu
+
+* **Data Management** ... Select the Data Management menu item from the menu. → Selection dialog is shown.
+* **Export data** ... Export all mind map data into the SD card.
+* **Import data** ... Import the mind map data from the SD card.
+
+[NOTE]
+These features are for data migration from the Free to Full version.
+
+
+
+
+=== (2) Mind Mapping
+
+image::screenshots/muji_mindboard_act.png[title="Mind Mapping Activity"]
+
+
+//===== Summary
+
+* **Edit drawing on the node** ... Go to the edit screen when you double-tap the node.
+* **Adding a node** ... Drag the (+) mark.
+* **Moving the node** ... Long press the node to move. And then drag it on the destination node.
+* **Delete the node** ... Select a node to delete , and then tap delete button on the action bar.
+    * It will also be deleted children nodes of the selected node.
+* **Shift and Zoom mind map**
+    * **Shift** ... Drag white space the mind map with one finger.
+    * **Zoom** ... Pinch in / out with two fingers.
+
+
+==== Operations
+
+image::screenshots/muji_mindboard_node_selected.png[title="muji_mindboard_node_selected"]
+
+* **Set the drawing color on the node** ... Choose a color from colors panel on the action bar when you select a node.
+* **Set the color of the branch** ... Choose a color from colors panel on the action bar when you select a branch.
+* **Select drawing path stroke width** ... Choose a pen width from pen widths panel on Action Bar. 
+
+
+//===== Other Features
+
+Menu
+
+* **Export as PDF** ... Select PDF Export Menu Item from the menu on the action bar. To view generated PDF document , it is need to be installed PDF Viewer app like Adobe Reader.
+* **Change theme** ... Select Theme Change Menu Item from the menu on the action bar. Choose a theme from the list of themes.
+
+
+
+=== (3) Node Editing
+
+image::screenshots/muji_editor_act.png[title="muji_editor_act"]
+
+
+//===== Summary
+
+* **Pen mode** ... You can draw your ideas on the screen.
+* **Eraser mode** ... Delete the stroke that you draw.
+* **Scroll** ... Drag background with one finger.
+* **Zoom** ... Pinch in / out with two fingers.
+* **Undo** ... Do undo.
+* **Redo** ... Do redo.
+* **Clear** ... Clear drawing in the node.
+
+
+
+=== Settings
+
+image::screenshots/muji_settings.png[title="Settings"]
+
+//===== Summary
+
+* **Double tap and go back gesture**  ... enabled or not
+* **Stylus (S Pen)** ... use plam rejection or not
+* **Google Drive Folder** ... use google drive folder or not
+* **Screen** ... keep screen on or not
+* **Working Directory** 
+
+= Appendix
+
+== FAQ
+
+=== What is different between MindBoard Classic Free and Full Edition? 
+
+Free Edition limitations are ...
+
+* You can create mind map files until 10.
+* In Free Edition, Exported PDF with watermark.
+
+There is no differences but these two features.
+
+
+=== How to transfer data from Free Edition to Paid Edition when upgrade? 
+
+Yes.
+
+Please use **Data Management** menu in the File Manager.
+
+
+==== Operations
+
+Step1 : Launch MindBoard Classic (**Free**) Edition
+
+. Select Menu **Data Management**.
+. On Data Management Dialog, Select **Export data** and Tap **OK**.
+
+Step2 : Launch MindBoard Classic (**Full**) Edition
+
+. Select Menu **Data Management**.
+. On Data Management Dialog, Select **Import data** and Tap **OK**.
+
+
+==== Additional Information
+
+* When you export data , it was stored in the local SD Card ( ex. **/mnt/sdcard/mindboard/mindboard_data.zip** ). 
+* Wnen you import data , MindBoard app try to read data from the local SD Card . 
+
+
+=== How to move a node to another one? 
+
+Yes.
+
+You can move any node (but center node) by dragging it in the [Mind Mapping](editing-map.html) screen.
+
+
+==== Operations 
+
+In the [Mind Mapping](editing-map.html)
+
+. Long press (press and hold) a node to move. ( changing node-move-mode )
+. Dragging it to another node 
+
+[NOTE]
+See also the http://www.youtube.com/watch?v=qXQFEQhgNko[Video Tutorial] at youtube.
+
+
+=== Can I layout nodes automatic in the mindmap? 
+
+Yes.
+
+Please use the menu **Auto-layout**.
+
+
+==== Operations
+
+In the *Mind Mapping Activity* ...
+
+. Select a node
+. Select the menu *Auto Layout*
+
+
+=== Can I change order of files in File Manager? 
+
+Yes.
+
+You can change it anywhere you want.
+
+
+==== Operations
+
+In the *File Manager Activity* ...
+
+. Long Press the target file icon what you want to move. ( so that others grayed out. )
+. Drag it to somewhere you want.
+
+
+[NOTE]
+Version 3.1.2 and above , it was supported the *Tab feature* . 
+You can also move a file to another tab.
+
