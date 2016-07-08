@@ -1,4 +1,3 @@
-
 = Introduction
 
 This application help you making mind mapping easy and intuitive.
@@ -20,61 +19,56 @@ image::screenshots/mindboard-classic.png[title="mindboard-classic"]
 This app has three Activities and Settings.
 
 
-=== (1) File Manager
+=== File Manager
 
-image::screenshots/muji_finder_act.png[title="muji_finder_act"]
+image::screenshots/muji_finder_act.png[title="file manager"]
 
-* It is a screen to manage your map files.
+* This is for management your map files.
 * There are three folders to organize your map files.
-* Go to [Mind Mapping](editing-map.html) screen by double tapping the map icon.
+* Go to the *Map Editor* activity by double tapping a map icon.
 
 
-=== (2) Mind Mapping
+=== Map Editor
 
-image::screenshots/muji_mindboard_act.png[title="muji_mindboard_act"]
+image::screenshots/muji_mindboard_act.png[title="map editor"]
 
-* It is a screen to create a mind map.
-* Go to the [Screen-3](editing-node.html) by double tapping the node on the mind map.
-* Back to the [Screen-1](file-manager.html) by tapping the icon in the upper left corner, or the Android hard key back button.
+* This is for mind mapping.
+* Go to the *Node Editor* by double tapping the node on the mind map.
+* Back to the *File Manager* by tapping the icon on the top left corner, or the Android hard key back button.
 
-> To go back, you can also use **double tap** background gesture.
-> * It is possible to make This behaviour prevent in the [Settings](settings.html).
+[NOTE]
+In order to go back, you can also use **double tap** gesture on the background.
+If you do not like this behaviour, turn it off in the Settings.
 
 
-=== (3) Node Editing
+=== Node Editor
 
-image::screenshots/muji_editor_act.png[title="muji_editor_act"]
+image::screenshots/muji_editor_act.png[title="node editor"]
 
-* It is a screen to edit drawing on the node.
-* Back to the [Screen-2](editing-map.html) by tapping the icon in the upper left corner, or the Android hard key back button.
+* This is for editing drawing on a node.
+* Back to the *Map Editor* by tapping the icon on the top left corner, or the Android hard key back button.
 
 
 [NOTE]
-To go back, you can also use **double tap** background gesture.
-* It is possible to make This behaviour prevent in the [Settings](settings.html).
+In order to go back, you can also use *double tap* gesture on the background.
+If you do not like this behaviour, turn it off in the Settings.
 
 
 === Settings 
 
-//* It is a Settings screen.
-
-image::screenshots/muji_settings.png[title="muji_settings"]
-
-[More details...](settings.html)
-
+image::screenshots/muji_settings.png[title="settings"]
 
 
 == Details
 
-=== (1) File Manager
+=== File Manager
 
-image::screenshots/muji_finder_act.png[title="muji_finder_act"]
+image::screenshots/muji_finder_act.png[title="file manager"]
 
 * **Adding a new mind map** ... Tap the Add button on the action bar.
 * **Coping the mind map** ... Select a mind map to copy by tapping it. And then the Copy button on the action bar.
 * **Deleting the mind map** ... Select a mind map to delete by tapping it. And then the Confirm Delete button on the action bar.
 * **Changing the mind map order** ... Long-press the mind map to change order. And then drag it to the new location.
-
 
 Menu
 
@@ -86,35 +80,28 @@ Menu
 These features are for data migration from the Free to Full version.
 
 
+=== Map Editor
+
+image::screenshots/muji_mindboard_act.png[title="map editor"]
 
 
-=== (2) Mind Mapping
-
-image::screenshots/muji_mindboard_act.png[title="Mind Mapping Activity"]
-
-
-//===== Summary
-
-* **Edit drawing on the node** ... Go to the edit screen when you double-tap the node.
+* **Edit drawing on a node** ... Go to the edit screen when you double-tap the node.
 * **Adding a node** ... Drag the (+) mark.
 * **Moving the node** ... Long press the node to move. And then drag it on the destination node.
 * **Delete the node** ... Select a node to delete , and then tap delete button on the action bar.
-    * It will also be deleted children nodes of the selected node.
+** It will also be deleted children nodes of the selected node.
 * **Shift and Zoom mind map**
-    * **Shift** ... Drag white space the mind map with one finger.
-    * **Zoom** ... Pinch in / out with two fingers.
+** **Shift** ... Drag white space the mind map with one finger.
+** **Zoom** ... Pinch in / out with two fingers.
 
 
 ==== Operations
 
-image::screenshots/muji_mindboard_node_selected.png[title="muji_mindboard_node_selected"]
+image::screenshots/muji_mindboard_node_selected.png[title="node selection"]
 
-* **Set the drawing color on the node** ... Choose a color from colors panel on the action bar when you select a node.
+* **Set the drawing color on a node** ... Choose a color from colors panel on the action bar when you select a node.
 * **Set the color of the branch** ... Choose a color from colors panel on the action bar when you select a branch.
 * **Select drawing path stroke width** ... Choose a pen width from pen widths panel on Action Bar. 
-
-
-//===== Other Features
 
 Menu
 
@@ -122,13 +109,9 @@ Menu
 * **Change theme** ... Select Theme Change Menu Item from the menu on the action bar. Choose a theme from the list of themes.
 
 
+=== Node Editor
 
-=== (3) Node Editing
-
-image::screenshots/muji_editor_act.png[title="muji_editor_act"]
-
-
-//===== Summary
+image::screenshots/muji_editor_act.png[title="node editor"]
 
 * **Pen mode** ... You can draw your ideas on the screen.
 * **Eraser mode** ... Delete the stroke that you draw.
@@ -139,18 +122,16 @@ image::screenshots/muji_editor_act.png[title="muji_editor_act"]
 * **Clear** ... Clear drawing in the node.
 
 
-
 === Settings
 
-image::screenshots/muji_settings.png[title="Settings"]
-
-//===== Summary
+image::screenshots/muji_settings.png[title="settings"]
 
 * **Double tap and go back gesture**  ... enabled or not
 * **Stylus (S Pen)** ... use plam rejection or not
 * **Google Drive Folder** ... use google drive folder or not
 * **Screen** ... keep screen on or not
 * **Working Directory** 
+
 
 = Appendix
 
@@ -175,12 +156,12 @@ Please use **Data Management** menu in the File Manager.
 
 ==== Operations
 
-Step1 : Launch MindBoard Classic (**Free**) Edition
+Step1 : Launch MindBoard Classic (*Free*) Edition
 
 . Select Menu **Data Management**.
 . On Data Management Dialog, Select **Export data** and Tap **OK**.
 
-Step2 : Launch MindBoard Classic (**Full**) Edition
+Step2 : Launch MindBoard Classic (*Full*) Edition
 
 . Select Menu **Data Management**.
 . On Data Management Dialog, Select **Import data** and Tap **OK**.
@@ -243,4 +224,3 @@ In the *File Manager Activity* ...
 [NOTE]
 Version 3.1.2 and above , it was supported the *Tab feature* . 
 You can also move a file to another tab.
-
